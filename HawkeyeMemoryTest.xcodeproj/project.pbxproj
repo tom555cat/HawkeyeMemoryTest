@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E94C0E424D3B7A7008E9724 /* NSObject+MTHAllocTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E94C0E324D3B7A7008E9724 /* NSObject+MTHAllocTrack.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8E94C0E524D3B7A7008E9724 /* NSObject+MTHAllocTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E94C0E324D3B7A7008E9724 /* NSObject+MTHAllocTrack.m */; };
+		8E94C0E624D3B7A7008E9724 /* NSObject+MTHAllocTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E94C0E324D3B7A7008E9724 /* NSObject+MTHAllocTrack.m */; };
 		8EE24F0F24CFDC1400CBC41A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F0E24CFDC1400CBC41A /* AppDelegate.m */; };
 		8EE24F1224CFDC1400CBC41A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F1124CFDC1400CBC41A /* SceneDelegate.m */; };
 		8EE24F1524CFDC1400CBC41A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F1424CFDC1400CBC41A /* ViewController.m */; };
@@ -16,6 +19,21 @@
 		8EE24F2024CFDC1600CBC41A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F1F24CFDC1600CBC41A /* main.m */; };
 		8EE24F2A24CFDC1600CBC41A /* HawkeyeMemoryTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F2924CFDC1600CBC41A /* HawkeyeMemoryTestTests.m */; };
 		8EE24F3524CFDC1600CBC41A /* HawkeyeMemoryTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F3424CFDC1600CBC41A /* HawkeyeMemoryTestUITests.m */; };
+		8EE24F4724CFDF8D00CBC41A /* mtha_allocate_logging.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F4524CFDF8D00CBC41A /* mtha_allocate_logging.mm */; };
+		8EE24F4824CFDF8D00CBC41A /* mtha_allocate_logging.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F4524CFDF8D00CBC41A /* mtha_allocate_logging.mm */; };
+		8EE24F4924CFDF8D00CBC41A /* mtha_allocate_logging.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F4524CFDF8D00CBC41A /* mtha_allocate_logging.mm */; };
+		8EE24F4E24D00CFF00CBC41A /* mtha_splay_tree.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F4D24D00CFF00CBC41A /* mtha_splay_tree.mm */; };
+		8EE24F4F24D00CFF00CBC41A /* mtha_splay_tree.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F4D24D00CFF00CBC41A /* mtha_splay_tree.mm */; };
+		8EE24F5024D00CFF00CBC41A /* mtha_splay_tree.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F4D24D00CFF00CBC41A /* mtha_splay_tree.mm */; };
+		8EE24F5324D00D9E00CBC41A /* mtha_backtrace_uniquing_table.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F5124D00D9E00CBC41A /* mtha_backtrace_uniquing_table.mm */; };
+		8EE24F5424D00D9E00CBC41A /* mtha_backtrace_uniquing_table.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F5124D00D9E00CBC41A /* mtha_backtrace_uniquing_table.mm */; };
+		8EE24F5524D00D9E00CBC41A /* mtha_backtrace_uniquing_table.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F5124D00D9E00CBC41A /* mtha_backtrace_uniquing_table.mm */; };
+		8EE24F5924D012A900CBC41A /* mtha_inner_allocate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F5724D012A900CBC41A /* mtha_inner_allocate.mm */; };
+		8EE24F5A24D012A900CBC41A /* mtha_inner_allocate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F5724D012A900CBC41A /* mtha_inner_allocate.mm */; };
+		8EE24F5B24D012A900CBC41A /* mtha_inner_allocate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F5724D012A900CBC41A /* mtha_inner_allocate.mm */; };
+		8EE24F5F24D0355100CBC41A /* MTHAllocations.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F5E24D0355100CBC41A /* MTHAllocations.mm */; };
+		8EE24F6024D0355100CBC41A /* MTHAllocations.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F5E24D0355100CBC41A /* MTHAllocations.mm */; };
+		8EE24F6124D0355100CBC41A /* MTHAllocations.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EE24F5E24D0355100CBC41A /* MTHAllocations.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E94C0E224D3B7A7008E9724 /* NSObject+MTHAllocTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MTHAllocTrack.h"; sourceTree = "<group>"; };
+		8E94C0E324D3B7A7008E9724 /* NSObject+MTHAllocTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MTHAllocTrack.m"; sourceTree = "<group>"; };
 		8EE24F0A24CFDC1400CBC41A /* HawkeyeMemoryTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HawkeyeMemoryTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE24F0D24CFDC1400CBC41A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8EE24F0E24CFDC1400CBC41A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +74,17 @@
 		8EE24F3024CFDC1600CBC41A /* HawkeyeMemoryTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HawkeyeMemoryTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE24F3424CFDC1600CBC41A /* HawkeyeMemoryTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HawkeyeMemoryTestUITests.m; sourceTree = "<group>"; };
 		8EE24F3624CFDC1600CBC41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE24F4524CFDF8D00CBC41A /* mtha_allocate_logging.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = mtha_allocate_logging.mm; sourceTree = "<group>"; };
+		8EE24F4624CFDF8D00CBC41A /* mtha_allocate_logging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mtha_allocate_logging.h; sourceTree = "<group>"; };
+		8EE24F4C24D00CFF00CBC41A /* mtha_splay_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mtha_splay_tree.h; sourceTree = "<group>"; };
+		8EE24F4D24D00CFF00CBC41A /* mtha_splay_tree.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mtha_splay_tree.mm; sourceTree = "<group>"; };
+		8EE24F5124D00D9E00CBC41A /* mtha_backtrace_uniquing_table.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mtha_backtrace_uniquing_table.mm; sourceTree = "<group>"; };
+		8EE24F5224D00D9E00CBC41A /* mtha_backtrace_uniquing_table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mtha_backtrace_uniquing_table.h; sourceTree = "<group>"; };
+		8EE24F5624D00EBD00CBC41A /* mtha_locking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mtha_locking.h; sourceTree = "<group>"; };
+		8EE24F5724D012A900CBC41A /* mtha_inner_allocate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mtha_inner_allocate.mm; sourceTree = "<group>"; };
+		8EE24F5824D012A900CBC41A /* mtha_inner_allocate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mtha_inner_allocate.h; sourceTree = "<group>"; };
+		8EE24F5D24D0355100CBC41A /* MTHAllocations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTHAllocations.h; sourceTree = "<group>"; };
+		8EE24F5E24D0355100CBC41A /* MTHAllocations.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MTHAllocations.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +112,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E94C0E124D3B77D008E9724 /* no-arc */ = {
+			isa = PBXGroup;
+			children = (
+				8E94C0E224D3B7A7008E9724 /* NSObject+MTHAllocTrack.h */,
+				8E94C0E324D3B7A7008E9724 /* NSObject+MTHAllocTrack.m */,
+			);
+			path = "no-arc";
+			sourceTree = "<group>";
+		};
 		8EE24F0124CFDC1400CBC41A = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +144,8 @@
 		8EE24F0C24CFDC1400CBC41A /* HawkeyeMemoryTest */ = {
 			isa = PBXGroup;
 			children = (
+				8EE24F4A24D00BA900CBC41A /* other */,
+				8EE24F4224CFDEEF00CBC41A /* MemoryPlugins */,
 				8EE24F0D24CFDC1400CBC41A /* AppDelegate.h */,
 				8EE24F0E24CFDC1400CBC41A /* AppDelegate.m */,
 				8EE24F1024CFDC1400CBC41A /* SceneDelegate.h */,
@@ -135,6 +177,48 @@
 				8EE24F3624CFDC1600CBC41A /* Info.plist */,
 			);
 			path = HawkeyeMemoryTestUITests;
+			sourceTree = "<group>";
+		};
+		8EE24F4224CFDEEF00CBC41A /* MemoryPlugins */ = {
+			isa = PBXGroup;
+			children = (
+				8EE24F4324CFDEFE00CBC41A /* Allocations */,
+			);
+			path = MemoryPlugins;
+			sourceTree = "<group>";
+		};
+		8EE24F4324CFDEFE00CBC41A /* Allocations */ = {
+			isa = PBXGroup;
+			children = (
+				8E94C0E124D3B77D008E9724 /* no-arc */,
+				8EE24F4424CFDF2000CBC41A /* Core */,
+			);
+			path = Allocations;
+			sourceTree = "<group>";
+		};
+		8EE24F4424CFDF2000CBC41A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8EE24F5624D00EBD00CBC41A /* mtha_locking.h */,
+				8EE24F4C24D00CFF00CBC41A /* mtha_splay_tree.h */,
+				8EE24F4D24D00CFF00CBC41A /* mtha_splay_tree.mm */,
+				8EE24F4524CFDF8D00CBC41A /* mtha_allocate_logging.mm */,
+				8EE24F4624CFDF8D00CBC41A /* mtha_allocate_logging.h */,
+				8EE24F5224D00D9E00CBC41A /* mtha_backtrace_uniquing_table.h */,
+				8EE24F5124D00D9E00CBC41A /* mtha_backtrace_uniquing_table.mm */,
+				8EE24F5824D012A900CBC41A /* mtha_inner_allocate.h */,
+				8EE24F5724D012A900CBC41A /* mtha_inner_allocate.mm */,
+				8EE24F5D24D0355100CBC41A /* MTHAllocations.h */,
+				8EE24F5E24D0355100CBC41A /* MTHAllocations.mm */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8EE24F4A24D00BA900CBC41A /* other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,8 +353,14 @@
 			files = (
 				8EE24F1524CFDC1400CBC41A /* ViewController.m in Sources */,
 				8EE24F0F24CFDC1400CBC41A /* AppDelegate.m in Sources */,
+				8EE24F5324D00D9E00CBC41A /* mtha_backtrace_uniquing_table.mm in Sources */,
 				8EE24F2024CFDC1600CBC41A /* main.m in Sources */,
+				8EE24F4E24D00CFF00CBC41A /* mtha_splay_tree.mm in Sources */,
 				8EE24F1224CFDC1400CBC41A /* SceneDelegate.m in Sources */,
+				8EE24F4724CFDF8D00CBC41A /* mtha_allocate_logging.mm in Sources */,
+				8E94C0E424D3B7A7008E9724 /* NSObject+MTHAllocTrack.m in Sources */,
+				8EE24F5F24D0355100CBC41A /* MTHAllocations.mm in Sources */,
+				8EE24F5924D012A900CBC41A /* mtha_inner_allocate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +368,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EE24F4F24D00CFF00CBC41A /* mtha_splay_tree.mm in Sources */,
+				8EE24F6024D0355100CBC41A /* MTHAllocations.mm in Sources */,
+				8EE24F4824CFDF8D00CBC41A /* mtha_allocate_logging.mm in Sources */,
+				8EE24F5A24D012A900CBC41A /* mtha_inner_allocate.mm in Sources */,
+				8EE24F5424D00D9E00CBC41A /* mtha_backtrace_uniquing_table.mm in Sources */,
 				8EE24F2A24CFDC1600CBC41A /* HawkeyeMemoryTestTests.m in Sources */,
+				8E94C0E524D3B7A7008E9724 /* NSObject+MTHAllocTrack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +382,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EE24F5024D00CFF00CBC41A /* mtha_splay_tree.mm in Sources */,
+				8EE24F6124D0355100CBC41A /* MTHAllocations.mm in Sources */,
+				8EE24F4924CFDF8D00CBC41A /* mtha_allocate_logging.mm in Sources */,
+				8EE24F5B24D012A900CBC41A /* mtha_inner_allocate.mm in Sources */,
+				8EE24F5524D00D9E00CBC41A /* mtha_backtrace_uniquing_table.mm in Sources */,
 				8EE24F3524CFDC1600CBC41A /* HawkeyeMemoryTestUITests.m in Sources */,
+				8E94C0E624D3B7A7008E9724 /* NSObject+MTHAllocTrack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
